@@ -32,8 +32,7 @@ int main() {
 			tmp_n = temp;
 		}
 	}
-
-	int a;
+	//Ãâ·Â
 	for (int i = 1; i <= 10000; i++) {
 		if (check[i] == false)
 			cout << i << endl;

@@ -1,6 +1,3 @@
-//
-// Created by joju on 2017. 6. 30..
-//
 #include <iostream>
 using namespace std;
 
@@ -19,8 +16,9 @@ int main() {
             tmp = tmp / 10;
             sum += tmpPiece;
         }
-        if (!array[sum])
-            array[sum] = true;
+        if(sum>10000) continue;
+
+        array[sum] = true;
     }
     for (int i = 1; i < 10000; ++i) {
         if (!array[i]) cout << i << endl;

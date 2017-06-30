@@ -19,9 +19,11 @@ int main() {
         }
 
         bool check = true;
+        // 초기 자리수 차이 저장
         int sub = numbers[1]-numbers[0];
         for (int j = 1; j < numbers.size(); j++) {
             int tempSub = numbers[j] - numbers[j-1];
+            // 비교 후 체크
             if(sub != tempSub){
                 check = false;
                 continue;

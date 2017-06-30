@@ -4,6 +4,7 @@
 
 #include <iostream>
 using namespace std;
+
 // 셀프넘버 함수
 int d(int n) {
     int res = n;

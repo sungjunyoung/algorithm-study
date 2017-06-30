@@ -28,9 +28,9 @@ int checkAS(int N)
             divisionArr[cnt++] = tmp % 10;
             tmp /= 10;
         }
-        int initValue = divisionArr[0]-divisionArr[1];
+        int initValue = divisionArr[0]-divisionArr[1]; // 초기 차이값
         for (int i = 1; i < cnt - 1; i++) {
-            if (initValue != divisionArr[i]-divisionArr[i+1]) {
+            if (initValue != divisionArr[i]-divisionArr[i+1]) { //등차인지 확인
                 res = 0;
                 break;
             }

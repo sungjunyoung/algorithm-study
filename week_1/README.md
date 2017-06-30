@@ -15,6 +15,9 @@
     - [4673번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/4673_junyoung.cpp)
         - 알고리즘을 풀때 1000개 리미트이면 배열을 1001 개 선언해서 1~1000 으로 쓰면 가독성이 좋다
 - 오영택
+	- [4763번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/4763_teki.cpp)
+		- c++ 배열초기화 방법 : std::fill_n(초기화 시작할 곳의 주소, 시작주소부터 몇개를 초기화 할건지, 뭐로 초기화 할건지)
+		ex) std::fill_n(arr,4*4,-1) >> arr배열의 시작주소부터 16개를 -1로 초기화
 - 조주영
 - 강석윤
 - 정소현

@@ -4,8 +4,8 @@
 
 - 성준영 : junyoung
 - 오영택 : teki
-- 조주영 : jujoju
-- 강석윤 : 1550sheep
+- 조주영 : jojju
+- 강석윤 : sheep1500
 - 정소현 : doradora23
 - 김성주 : tjdwn9410
 

@@ -4,14 +4,14 @@ using namespace std;
 int main() {
 	//최대 10000까지~
 	bool check[10001] = { false };
+	int num;
 	int temp;
-	int tmp_n;
 
 	//체크된거는 continue
 	//체크 안된거는 확인
 	for (int n = 1; n < 10001; n++) {
+		num = n;
 		temp = n;
-		tmp_n = n;
 		if (check[n] == true) {
 			continue;
 		}
@@ -21,15 +21,15 @@ int main() {
 			//10000을 넘으면 break
 			//넘지않으면 체크
 			while (1) {
-				temp += (tmp_n % 10);
-				tmp_n /= 10;
-				if (tmp_n == 0)
+				num += (temp % 10);
+				temp /= 10;
+				if (temp == 0)
 					break;
 			}
-			if (temp > 10000)
+			if (num > 10000)
 				break;
-			check[temp] = true;
-			tmp_n = temp;
+			check[num] = true;
+			temp = num;
 		}
 	}
 	//출력

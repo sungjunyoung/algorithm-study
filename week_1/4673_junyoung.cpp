@@ -3,13 +3,11 @@
 //
 
 #include <iostream>
-
 using namespace std;
 
 // 셀프넘버 함수
 int d(int n) {
     int res = n;
-
     while (n != 0) {
         res += n % 10;
         n = n / 10;
@@ -26,11 +24,9 @@ int main() {
         if(d(i) > 10000){
             continue;
         }
-
         // 셀프넘버가 만들어지는 곳을 1로 체크해준다.
         list[d(i)] = 1;
     }
-
     for (int i = 1; i <= 10000; i++) {
         if(list[i] == 0){
             cout << i << endl;

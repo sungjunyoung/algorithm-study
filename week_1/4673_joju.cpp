@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    bool array[10000] = {false};
+    bool array[10001] = {false};
 
     int tmp;
     int tmpPiece;
@@ -20,7 +20,8 @@ int main() {
 
         array[sum] = true;
     }
-    for (int i = 1; i < 10000; ++i) {
+
+    for (int i = 1; i <= 10000; ++i) {
         if (!array[i]) cout << i << endl;
     }
 

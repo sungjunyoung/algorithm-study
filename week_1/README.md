@@ -10,6 +10,10 @@
 - 성준영
     - (예시) [1000번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/1000_junyoung.cpp)
         - 출력은 `cout` 보다 `printf`가 성능이 좋다
+    - [4673번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/4673_junyoung.cpp)
+        - 배열 선언시 초기화 방법 `int list[10001] = {0};` 혹은 `int list[10001] = {0,};` <- 모두 0 으로 초기화가 된다.
+    - [4673번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/4673_junyoung.cpp)
+        - 알고리즘을 풀때 1000개 리미트이면 배열을 1001 개 선언해서 1~1000 으로 쓰면 가독성이 좋다
 - 오영택
 - 조주영
 - 강석윤

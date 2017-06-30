@@ -22,7 +22,7 @@ int checkAS(int N)
     int tmp =N;
     int res=1;
     if(N>=100) {
-        int divisionArr[10]; // 각 자리수 분할
+        int divisionArr[4]; // 각 자리수 분할
         int cnt = 0;
         while (tmp > 0) {
             divisionArr[cnt++] = tmp % 10;

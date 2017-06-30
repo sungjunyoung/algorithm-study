@@ -3,7 +3,7 @@
 [백준 온라인 저지](https://www.acmicpc.net/)
 
 ### Nicknames
-
+ㅗ
 - 성준영 : junyoung
 - 오영택 : teki
 - 조주영 : jojju

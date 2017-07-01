@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int N;
@@ -12,7 +11,7 @@ void recursiveStar(char **table, int depth) {
     for (int y = depth; y < nextDepth; ++y) {
         copyRange = depth;
         for (int x = N - nextDepth; x < N + nextDepth - 1; ++x) {
-            if (x == N) copyRange = - depth;
+            if (x == N) copyRange = - copyRange;
             table[y][x] = table[y - depth][x + copyRange];
         }
     }
@@ -20,9 +19,7 @@ void recursiveStar(char **table, int depth) {
 }
 
 int main() {
-    int n;
-    cin >> n;
-    N = n;
+    cin >> N;
 
     char **table = new char *[N];
     for (int i = 0; i < N; ++i)

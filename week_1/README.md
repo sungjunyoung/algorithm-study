@@ -26,6 +26,15 @@
         // 벡터 푸시
         testVector.push_back(1);
         ```
+    - [2448번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/1065_junyoung.cpp)
+        - (동적할당하는방법 까머금..) 
+       ```cpp
+       char **initShape;
+       initShape = new char *[3];
+       for (int i = 0; i < 3; i++) {
+           initShape[i] = new char[5];
+       }
+       ```
 - 오영택
 	- [4763번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/4763_teki.cpp)
 		- c++ 배열초기화 방법 : std::fill_n(초기화 시작할 곳의 주소, 시작주소부터 몇개를 초기화 할건지, 뭐로 초기화 할건지)
@@ -43,7 +52,7 @@
 ## Progress
 
 
-- 성준영 : (예시) 1000, 4673, 1065
+- 성준영 : (예시) 1000, 4673, 1065, 2448
 - 오영택 : 4673, 1065
 - 조주영 : 4673
 - 강석윤 :

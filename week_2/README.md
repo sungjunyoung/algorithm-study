@@ -16,6 +16,8 @@
  - 강석윤
  - 정소현
  - 김성주
+    - [1152번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1152_tjdwn9410.cpp)
+        - strtok 함수는 문자열을 특정 문자를 자르는데 사용하는 함수이다. 컴파일 에러 발생 시,  #define _CRT_SECURE_NO_WARNINGS을 상단에 입력하면 된다
  
  
  > 현재 푼 문제들을 적어넣으세요
@@ -28,4 +30,4 @@
  - 조주영 : 
  - 강석윤 :
  - 정소현 :
- - 김성주 : 
+ - 김성주 : 1152 

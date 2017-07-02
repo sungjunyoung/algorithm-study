@@ -7,6 +7,12 @@
  ## Tips
  
  - 성준영
+    - [1152번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1152_junyoung.cpp)
+        - string 입력받기
+        ```cpp
+        string input;
+        getline(cin, input);
+        ```
  - 오영택 
  - 조주영
  - 강석윤
@@ -19,7 +25,7 @@
  ## Progress
  
  
- - 성준영 : 
+ - 성준영 : 1152
  - 오영택 : 
  - 조주영 : 
  - 강석윤 :

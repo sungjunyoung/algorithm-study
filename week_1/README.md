@@ -26,6 +26,15 @@
         // 벡터 푸시
         testVector.push_back(1);
         ```
+    - [2448번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/1065_junyoung.cpp)
+        - (동적할당하는방법 까머금..) 
+       ```cpp
+       char **initShape;
+       initShape = new char *[3];
+       for (int i = 0; i < 3; i++) {
+           initShape[i] = new char[5];
+       }
+       ```
 - 오영택
 	- [4763번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/4763_teki.cpp)
 		- c++ 배열초기화 방법 : std::fill_n(초기화 시작할 곳의 주소, 시작주소부터 몇개를 초기화 할건지, 뭐로 초기화 할건지)
@@ -37,15 +46,18 @@
     - [4673번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/4673_tjdwn9410.cpp)
         - using namespace std 대신 using std::cout과 같은 문법으로 필요한 것만 선택하여 추가하는게 좋다.
         - 전역 변수로 배열을 선언하면 모든 값이 0으로 초기화 된다.
+    - [1065번] (https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/2448_tjdwn9410.cpp)
+        - 전체 부분이 일정 구조의 반복이므로 각 부분을 잘라서 코딩 전에 분석을 먼저해보는것 추천.
 
 > 현재 푼 문제들을 적어넣으세요
 
 ## Progress
 
 
-- 성준영 : (예시) 1000, 4673, 1065
+- 성준영 : (예시) 1000, 4673, 1065, 2448
 - 오영택 : 4673, 1065
-- 조주영 : 4673
+- 조주영 : 4673, 2448, 1065
 - 강석윤 :
 - 정소현 :
-- 김성주 : 4673, 1065
+- 김성주 : 4673, 1065, 2448
+- 김민호 : 4673

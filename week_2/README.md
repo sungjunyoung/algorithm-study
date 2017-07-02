@@ -2,7 +2,9 @@
  
  ## Todo
  
- 단계별로 풀어보기 - [1차원 배열 사용하기](https://www.acmicpc.net/step/6)
+ 단계별로 풀어보기 - [1차원 배열 사용하기](https://www.acmicpc.net/step/6) - 5문제  
+ 단계별로 풀어보기 - [문자열 사용하기](https://www.acmicpc.net/step/7) - 9문제  
+ 단계별로 풀어보기 - [규칙 찾기](https://www.acmicpc.net/step/8) - 9문제
  
  ## Tips
  

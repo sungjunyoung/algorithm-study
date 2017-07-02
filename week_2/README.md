@@ -8,10 +8,17 @@
  
  - 성준영
     - [1152번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1152_junyoung.cpp)
-        - string 입력받기
+        - string 입력받기 (공백을 포함해서 한줄)
         ```cpp
         string input;
         getline(cin, input);
+        ```
+    - [8958번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/8958_junyoung.cpp)
+        - 테스트 케이스만큼 돌기
+        ```cpp
+        int n;
+        cin >> n;
+        while(n--){...}
         ```
  - 오영택 
  - 조주영
@@ -25,7 +32,7 @@
  ## Progress
  
  
- - 성준영 : 1152, 2577
+ - 성준영 : 1152, 2577, 8958
  - 오영택 : 
  - 조주영 : 
  - 강석윤 :

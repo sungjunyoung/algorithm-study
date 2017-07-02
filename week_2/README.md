@@ -20,6 +20,8 @@
         cin >> n;
         while(n--){...}
         ```
+    - [11654번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/11654_junyoung.cpp)
+        - char 형을 int 로 강제 형변환 시키면 아스키코드로 나온다.
  - 오영택 
  - 조주영
  - 강석윤
@@ -32,7 +34,7 @@
  ## Progress
  
  
- - 성준영 : 1152, 2577, 8958, 2920, 10039
+ - 성준영 : 1152, 2577, 8958, 2920, 10039, 11654
  - 오영택 : 
  - 조주영 : 
  - 강석윤 :

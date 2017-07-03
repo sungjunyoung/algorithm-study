@@ -22,19 +22,19 @@
  - 강석윤
  - 정소현
  - 김성주
+    - [8958번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/8958_tjdwn9410.cpp)
+        - 3항 연산자를 사용하였는데, 간단한 조건비교 및 값 대입에 사용할 수 있으며 [(조건) ? 참:거짓]으로 표현합니다 
     - [1152번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1152_tjdwn9410.cpp)
         - strtok 함수는 문자열을 특정 문자를 자르는데 사용하는 함수이다. 컴파일 에러 발생 시,  #define _CRT_SECURE_NO_WARNINGS을 상단에 입력하면 된다
         - https://dojang.io/mod/page/view.php?id=376 참고 링크
- 
- 
+        
  > 현재 푼 문제들을 적어넣으세요
- 
+
  ## Progress
- 
  
  - 성준영 : 1152
  - 오영택 : 
  - 조주영 : 1152, 2577, 8958, 2920, 10039, 2438, 2292, 1193
  - 강석윤 :
  - 정소현 :
- - 김성주 : 1152,2577 
+ - 김성주 : 1152, 2577, 8958 

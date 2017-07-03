@@ -36,6 +36,8 @@
     - [1152번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1152_tjdwn9410.cpp)
         - strtok 함수는 문자열을 특정 문자를 자르는데 사용하는 함수이다. 컴파일 에러 발생 시,  #define _CRT_SECURE_NO_WARNINGS을 상단에 입력하면 된다
         - https://dojang.io/mod/page/view.php?id=376 참고 링크
+    - [6064번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/6064_tjdwn9410.cpp)
+            - 유클리드 호제법을 사용하여 최소공배수를 계산하였습니다
         
  > 현재 푼 문제들을 적어넣으세요
 

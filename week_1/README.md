@@ -27,7 +27,7 @@
         testVector.push_back(1);
         ```
     - [2448번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/1065_junyoung.cpp)
-        - (동적할당하는방법 까머금..) 
+        - (동적할당하는방법 까머금..)
        ```cpp
        char **initShape;
        initShape = new char *[3];
@@ -57,7 +57,7 @@
 - 성준영 : (예시) 1000, 4673, 1065, 2448
 - 오영택 : 4673, 1065
 - 조주영 : 4673, 2448, 1065
-- 강석윤 : 1065
+- 강석윤 : 4673, 1065
 - 정소현 :
 - 김성주 : 4673, 1065, 2448
 - 김민호 : 4673

@@ -3,7 +3,7 @@
 using namespace std;
 
 int selfNum(int prev);
-
+// 주석달기싫어..
 int main()
 {
 	int num=1;

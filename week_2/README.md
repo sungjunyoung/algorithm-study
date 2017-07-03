@@ -2,21 +2,26 @@
  
  ## Todo
  
- 단계별로 풀어보기 - [1차원 배열 사용하기](https://www.acmicpc.net/step/6) - 5문제  
- 단계별로 풀어보기 - [규칙 찾기](https://www.acmicpc.net/step/8) - 9문제  
- 단계별로 풀어보기 - [정렬해보기](https://www.acmicpc.net/step/9) - 7문제  
- 
- > 문자열 사용해보기는 너무 쉬운거같아서 뺏습니다.
+ 단계별로 풀어보기 - [1차원 배열 사용하기](https://www.acmicpc.net/step/6)
  
  ## Tips
  
  - 성준영
     - [1152번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1152_junyoung.cpp)
-        - string 입력받기
+        - string 입력받기 (공백을 포함해서 한줄)
         ```cpp
         string input;
         getline(cin, input);
         ```
+    - [8958번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/8958_junyoung.cpp)
+        - 테스트 케이스만큼 돌기
+        ```cpp
+        int n;
+        cin >> n;
+        while(n--){...}
+        ```
+    - [1011번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1011_junyoung.cpp)
+        - `unsigned int`의 범위 0 ~ 4,294,967,295
  - 오영택 
  - 조주영
  - 강석윤
@@ -32,7 +37,7 @@
 
  ## Progress
  
- - 성준영 : 1152
+ - 성준영 : 1152, 2577, 8958, 2920, 10039, 2438, 2292, 1193, 1011, 10250
  - 오영택 : 
  - 조주영 : 1152, 2577, 8958, 2920, 10039, 2438, 2292, 1193
  - 강석윤 :

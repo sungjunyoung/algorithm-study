@@ -13,7 +13,7 @@
  - 성준영
  - 오영택
  - 조주영
- - 강석윤 
+ - 강석윤
  	- [2577번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/2577_sheep1500.cpp)
  		- char의 정수 -> int 로 바꿀 때는 문법 없이 -'0'
 으로 하면 됩니다
@@ -25,7 +25,7 @@
 
  ## Progress
 
-
+ 
  - 성준영 :
  - 오영택 :
  - 조주영 :

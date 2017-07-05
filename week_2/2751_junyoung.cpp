@@ -1,42 +1,11 @@
 #include <iostream>
 #include <vector>
+#include <stdio.h>
+#include <algorithm>
 
 using namespace std;
 
-void quicksort(vector<int> &numList, int start, int end) {
-    int pivot = start;
-
-    int i = start;
-    int j = end;
-
-    if(start < end){
-
-        do {
-            while (numList[i] < numList[pivot]) {
-                i++;
-            }
-            while (numList[j] > numList[pivot]) {
-                j--;
-            }
-
-            int temp = numList[i];
-            numList[i] = numList[j];
-            numList[j] = temp;
-
-        } while (i < j);
-
-        int temp = numList[j];
-        numList[j] = numList[pivot];
-        numList[pivot] = temp;
-
-        quicksort(numList, start, j - 1);
-        quicksort(numList, j + 1, end);
-    } else {
-        return;
-    }
-}
-
-
+// 직접구현해보고싶다..
 int main() {
     int n;
     cin >> n;
@@ -44,13 +13,13 @@ int main() {
     vector<int> numList;
     for (int i = 1; i <= n; i++) {
         int tempNum;
-        cin >> tempNum;
+        scanf("%d",&tempNum);
         numList.push_back(tempNum);
     }
 
-    quicksort(numList, 0, numList.size() - 1);
+    sort(numList.begin(), numList.end());
 
     for (int i = 0; i < n; i++) {
-        cout << numList[i] << endl;
+        printf("%d\n", numList[i]);
     }
 }

@@ -19,15 +19,15 @@
         ```cpp
         // 벡터 include
         #include <vector>
-        
+
         // 벡터 선언
         vector<int> testVector;
-        
+
         // 벡터 푸시
         testVector.push_back(1);
         ```
     - [2448번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/1065_junyoung.cpp)
-        - (동적할당하는방법 까머금..) 
+        - (동적할당하는방법 까머금..)
        ```cpp
        char **initShape;
        initShape = new char *[3];
@@ -46,8 +46,20 @@
     - [4673번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/4673_tjdwn9410.cpp)
         - using namespace std 대신 using std::cout과 같은 문법으로 필요한 것만 선택하여 추가하는게 좋다.
         - 전역 변수로 배열을 선언하면 모든 값이 0으로 초기화 된다.
-    - [1065번] (https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/2448_tjdwn9410.cpp)
+    - [1065번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/2448_tjdwn9410.cpp)
         - 전체 부분이 일정 구조의 반복이므로 각 부분을 잘라서 코딩 전에 분석을 먼저해보는것 추천.
+- 김민호
+    - [1065번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_1/dolplusi.cpp)
+        - 숫자 N의 자릿수를 배열에 입력
+        ```cpp
+        for (int maxCipher = <문제에서 주어진 N의 최대 자릿수>; maxCipher >= 0; maxCipher--) {
+		if ((N / (int)pow(10, maxCipher)) == 0 && !findMaxCipher) {
+			continue; 		// 문제에서 주어진 N의 최대 자릿수에서 N의 최대자릿수까지 찾는 과정
+		}
+		findMaxCipher = true;	// 위의 if 조건 탈출 조건
+		Narr[num] = N / (int)pow(10, maxCipher) % 10; // Narr 배열에 차례로 저장
+		num++;
+	}
 
 > 현재 푼 문제들을 적어넣으세요
 
@@ -56,8 +68,8 @@
 
 - 성준영 : (예시) 1000, 4673, 1065, 2448
 - 오영택 : 4673, 1065
-- 조주영 : 4673, 2448, 1065
-- 강석윤 :
-- 정소현 :
+- 조주영 : 4673, 1065, 2448 
+- 강석윤 : 4673, 1065
+- 정소현 : 1065
 - 김성주 : 4673, 1065, 2448
-- 김민호 : 4673
+- 김민호 : 4673, 1065

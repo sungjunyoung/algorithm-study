@@ -24,8 +24,7 @@ int main() {
             piece = tmp % 10;
             tmp = tmp / 10;
 
-            if (j > 1)
-                if (preDiffer != prePiece - piece)
+            if (j > 1 && (preDiffer != prePiece - piece))
                     ok = false;
 
             preDiffer = prePiece - piece;

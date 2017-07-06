@@ -27,7 +27,7 @@
     - [1011번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1011_junyoung.cpp)
         - `unsigned int`의 범위 0 ~ 4,294,967,295
  - 오영택
-	-[1152번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1011_teki.cpp)
+    - [1152번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1011_teki.cpp)
 		- 공백을 포함하여 string 입력받기 : getline(cin, string input);
 		- string split 기능은 istringstream과 getline을 이용하면 간단함
 		  ex) while(getline(istringstream iss, string substr, 기준 char)) 

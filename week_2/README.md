@@ -28,9 +28,9 @@
         - `unsigned int`의 범위 0 ~ 4,294,967,295
  - 오영택
 	-[1152번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/1011_teki.cpp)
-		-공백을 포함하여 string 입력받기 : getline(cin, string input);
-		-string split 기능은 istringstream과 getline을 이용하면 간단함
-		 ex) while(getline(istringstream iss, string substr, 기준 char)) 
+		- 공백을 포함하여 string 입력받기 : getline(cin, string input);
+		- string split 기능은 istringstream과 getline을 이용하면 간단함
+		  ex) while(getline(istringstream iss, string substr, 기준 char)) 
  - 조주영
  - 강석윤
  	- [2577번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_2/2577_sheep1500.cpp)
@@ -54,13 +54,13 @@
 
  ## Progress
  
- - 성준영 : 1152, 2577, 8958, 2920, 10039, 2438, 2292, 1193, 1011, 10250, 2775, 1924, 1475, 6064, 2759
- - 오영택 : 1152, 2577, 8958, 2920, 10039, 2438, 2292 
+ - 성준영 : 1152, 2577, 8958, 2920, 10039, 2438, 2292, 1193, 1011, 10250, 2775, 1924, 1475, 6064, 2750, 2751, 1427
+ - 오영택 : 1152, 2577, 8958, 2920, 10039, 2438, 2292
  - 조주영 : 1152, 2577, 8958, 2920, 10039, 2438, 2292, 1193, 1011, 10250, 2775, 1924, 1475, 6064
  - 강석윤 : 1152, 2577, 8958, 2920
- - 정소현 :
+ - 정소현 : 1152
  - 김성주 : 1152, 2577, 8958, 2920, 10039, 2292, 1193, 1011, 10250, 2775, 1475, 1924, 2750
-
+ - 김민호 : 1152
  > 모여서 토론할 만한 문제 / 했으면 하는 문제를 써주세요
  
  ## To Study

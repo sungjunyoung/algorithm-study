@@ -25,5 +25,4 @@ int main() {
 
 	cout << max(dp[num][1], dp[num][2]);
 	return 0;
-
 }

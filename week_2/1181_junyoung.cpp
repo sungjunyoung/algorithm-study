@@ -1,25 +1,47 @@
 #include <iostream>
-#include <vector>
 #include <stdio.h>
+#include <vector>
 #include <algorithm>
 
 using namespace std;
 
-// 직접구현해보고싶다..
+vector<string> wordList;
+vector<string> wordCountList[51];
+
 int main() {
     int n;
-    cin >> n;
+    scanf("%d", &n);
 
-    vector<int> numList;
-    while (n != 0) {
-        numList.push_back(n % 10);
-        n /= 10;
+    for (int i = 0; i < n; i++) {
+        char tempString[50];
+        scanf("%50s", tempString);
+        wordList.push_back(tempString);
     }
 
-    sort(numList.begin(), numList.end());
-
-    for (int i = numList.size() - 1; i >= 0; i--) {
-        printf("%d", numList[i]);
+    for (int i = 0; i < n; i++) {
+        wordCountList[wordList[i].size()].push_back(wordList[i]);
     }
-    printf("\n");
+
+    // 각 큐 소팅하기
+    for (int i = 0; i <= 50; i++) {
+        sort(wordCountList[i].begin(), wordCountList[i].end());
+    }
+
+    // 큐에서 꺼내면서 결과에 푸시
+    vector<string> result;
+    for (int i = 0; i <= 50; i++) {
+        while (!wordCountList[i].empty()) {
+            result.push_back(wordCountList[i].front());
+            wordCountList[i].erase(wordCountList[i].begin(), wordCountList[i].begin() + 1);
+        }
+    }
+
+    // 중복제거
+    vector<string>::iterator pos;
+    pos = unique(result.begin(), result.end());
+    result.erase(pos, result.end());
+
+    for (int i = 0; i < result.size(); i++) {
+        cout << result[i] << endl;
+    }
 }

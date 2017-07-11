@@ -17,9 +17,9 @@
  - 정소현
  - 김성주
  - 김민호
-   - [1149](https://github.com/sungjunyoung/algorithm-study/tree/master/week_3/1003_dolplusi.cpp)
-     - 배열 선언과 동시에 초기화
-     ```cpp
+   - [1149번](https://github.com/sungjunyoung/algorithm-study/tree/master/week_3/1003_dolplusi.cpp)
+    - 배열 선언과 동시에 초기화
+    ```cpp
     int D[3][3] = { 0, };
     ```
 

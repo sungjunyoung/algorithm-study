@@ -16,18 +16,33 @@
  - 강석윤
  - 정소현
  - 김성주
+ - 김민호
+ 	- [2579번](https://github.com/sungjunyoung/algorithm-study/tree/master/week_3/2579_dolplusi.cpp)
+ 		- 문제 힌트 : 점화식을 구할 때 이차원 배열로 하였습니다. 
+ 		1. 계단이 연속으로 붙여진 뒤 n칸의 계단으로 올라왔을 때
+ 		2. 계단이 한 칸 띄워진 뒤 n칸의 계단으로 올라왔을 때 
+ 	- [1932번](https://github.com/sungjunyoung/algorithm-study/tree/master/week_3/1932_dolplusi.cpp)
+ 		- stack 메모리 부족으로 stack overflow가 나는 경우
+ 		[visual studio에서 stack overflow 해결 방법](http://ocllos.tistory.com/39)
+ 		visual studio는 디폴트로 스택 크기가 1MB 이므로 변수를 1MB 이상으로 선언하는 경우 에러가 난다.
+ 		그럴 경우 스택 크기를 늘려면 된다.
+ 	- [1149번](https://github.com/sungjunyoung/algorithm-study/tree/master/week_3/1003_dolplusi.cpp)
+   		- 배열 선언과 동시에 초기화
+    	```cpp
+    	int D[3][3] = { 0, };
+    	```
 
  > 현재 푼 문제들을 적어넣으세요
 
  ## Progress
 
- - 성준영 : 1003, 1149, 1932, 2579, 1463, 1005, 10844
- - 오영택 : 1003, 1149, 1932
+ - 성준영 : 1003, 1149, 1932, 2579, 1463, 1005, 10844, 2293, 2156
+ - 오영택 : 1003, 1149, 1932, 2579, 1463, 10844
  - 조주영 :
  - 강석윤 :
  - 정소현 :
  - 김성주 : 1149, 1932
- - 김민호 : 1463
+ - 김민호 : 1003, 1149, 1932, 2579, 1463
 
  > 모여서 토론할 만한 문제 / 했으면 하는 문제를 써주세요
 
@@ -39,3 +54,4 @@
 - 강석윤 :
 - 정소현 :
 - 김성주 :
+- 김민호 : 

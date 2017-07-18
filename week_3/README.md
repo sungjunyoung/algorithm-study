@@ -20,6 +20,11 @@
         ```cpp
         printf("%*d ", 5, number);
         ```
+    - [3053번](https://github.com/sungjunyoung/algorithm-study/tree/master/week_3/3053_junyoung.cpp)
+        - 소수 6째 자리까지 출력
+        ```cpp
+        printf("%6f", M_PI);
+        ```
  - 오영택
  - 조주영
  - 강석윤

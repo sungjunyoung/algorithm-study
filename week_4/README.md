@@ -20,8 +20,20 @@
 		
 		// nth_element(시작점,n번째 원소를 찾을거다,끝점)
         // 참고 : http://www.cplusplus.com/reference/algorithm/nth_element/
-		```	
-		
+		```
+	- [7469번](https://github.com/sungjunyoung/algorithm-study/tree/master/week_4/7469_teki.cpp)
+		- std::sort사용법(정렬기준)
+		```cpp
+		struct _a {
+		int num;
+		int index;};
+		// 오름차순 정렬
+		bool com(_a A, _a B){
+			return A.num < B.num;
+		}
+		_a a[100000];
+		std::sort(a,a+100000,com);
+		```
  - 조주영
  - 강석윤
  - 정소현

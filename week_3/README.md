@@ -30,6 +30,8 @@
 		- 동적계획법을 할 때, 답의 크기를 유추해서 어떤 정수형을 쓸지 판단해봅시다.
 		- 예제 출력을 잘보고 endl을 해야하는지 잘 판단합시다.
  - 조주영
+    - [1520번](https://github.com/sungjunyoung/algorithm-study/blob/master/week_3/1520_jojju.cpp)
+        - 메모이제이션 시 저장되어서 이용될 가능성이 있는 수로 초기화 하면 개고생한다.
  - 강석윤
  - 정소현
  - 김성주

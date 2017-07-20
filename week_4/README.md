@@ -58,7 +58,7 @@
 
  ## To Study
 
-- 성준영 : sqrt decomposition
+- 성준영 : sqrt decomposition, 세그먼트 트리
 - 오영택 :
 - 조주영 :
 - 강석윤 :

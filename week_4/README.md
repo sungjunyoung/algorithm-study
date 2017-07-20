@@ -26,7 +26,9 @@
 		```cpp
 		struct _a {
 		int num;
-		int index;};
+		int index;
+		};
+
 		// 오름차순 정렬
 		bool com(_a A, _a B){
 			return A.num < B.num;
@@ -45,7 +47,7 @@
  ## Progress
 
  - 성준영 : 11004, 7469, 1780
- - 오영택 : 11004
+ - 오영택 : 11004, 7469, 1780, 2740
  - 조주영 :
  - 강석윤 :
  - 정소현 :

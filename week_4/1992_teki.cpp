@@ -18,7 +18,7 @@ void check(int rs, int re, int cs, int ce) {
 		cout << tmp;
 	}
 	else {
-		int d = (re-rs + 1) / 2;
+		int d = (re - rs + 1) / 2;
 		cout << '(';
 		//¿ŞÂÊ »ó´Ü
 		check(rs, rs + d - 1, cs, cs + d - 1);
@@ -37,11 +37,11 @@ int main() {
 	int N;
 	cin >> N;
 	string a;
-	for (int i = 1; i <= N; i++){
+	for (int i = 1; i <= N; i++) {
 		cin >> arr[i];
 	}
 
-	check(1, N, 0, N-1);
+	check(1, N, 0, N - 1);
 
 	return 0;
 }

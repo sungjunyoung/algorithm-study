@@ -6,7 +6,7 @@ string arr[65];
 void check(int rs, int re, int cs, int ce) {
 	bool chk = true;
 	char tmp = arr[rs][cs];
-	//같은숫자로 이루어져있는지 쳌쳌
+	//같은숫자로 이루어져있는지 체크
 	for (int i = rs; i <= re && chk; i++) {
 		for (int j = cs; j <= ce && chk; j++) {
 			if (tmp != arr[i][j])

@@ -36,6 +36,8 @@
 		_a a[100000];
 		std::sort(a,a+100000,com);
 		```
+	- [2749번](https://github.com/sungjunyoung/algorithm-study/tree/master/week_4/2749_teki.cpp)
+		- 여러 피보나치 문제 참고(https://www.acmicpc.net/blog/view/28)
  - 조주영
  - 강석윤
  - 정소현
@@ -47,7 +49,7 @@
  ## Progress
 
  - 성준영 : 11004, 7469, 1780, 6459, 2740, 2749, 1992
- - 오영택 : 11004, 7469, 1780, 2740
+ - 오영택 : 11004, 7469, 1780, 2740, 2749
  - 조주영 : 7469, 11004, 2261
  - 강석윤 :
  - 정소현 :
@@ -59,7 +61,7 @@
  ## To Study
 
 - 성준영 : sqrt decomposition, 세그먼트 트리
-- 오영택 :
+- 오영택 : fibonacci
 - 조주영 :
 - 강석윤 :
 - 정소현 :

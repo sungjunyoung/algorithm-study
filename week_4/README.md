@@ -13,11 +13,11 @@
     - [11004번](https://github.com/sungjunyoung/algorithm-study/tree/master/week_4/11004_teki.cpp)
 		- nth element 찾기
 		- cin보다 scanf가 더 빠르다. 경우에 따라서 cin을 사용하면 실패하고, scanf를 사용하면 성공할수도있음!
-		
+
 		```cpp
 		int	a[5000000];
 		std::nth_element(a, a + n - 1, a + 500000);
-		
+
 		// nth_element(시작점,n번째 원소를 찾을거다,끝점)
         // 참고 : http://www.cplusplus.com/reference/algorithm/nth_element/
 		```
@@ -36,6 +36,8 @@
 		_a a[100000];
 		std::sort(a,a+100000,com);
 		```
+	- [2749번](https://github.com/sungjunyoung/algorithm-study/tree/master/week_4/2749_teki.cpp)
+		- 여러 피보나치 문제 참고(https://www.acmicpc.net/blog/view/28)
  - 조주영
  - 강석윤
  - 정소현
@@ -47,9 +49,9 @@
  ## Progress
 
  - 성준영 : 11004, 7469, 1780, 6459, 2740, 2749, 1992, 2477
- - 오영택 : 11004, 7469, 1780, 2740
+ - 오영택 : 11004, 7469, 1780, 2740, 2749
  - 조주영 : 7469, 11004, 2261
- - 강석윤 :
+ - 강석윤 : 11004
  - 정소현 :
  - 김성주 :
  - 김민호 :
@@ -59,9 +61,9 @@
  ## To Study
 
 - 성준영 : sqrt decomposition, 세그먼트 트리
-- 오영택 :
+- 오영택 : fibonacci
 - 조주영 :
 - 강석윤 :
 - 정소현 :
 - 김성주 :
-- 김민호 : 
+- 김민호 :

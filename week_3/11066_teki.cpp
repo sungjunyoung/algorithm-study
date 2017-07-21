@@ -18,16 +18,16 @@ int main() {
 		long long min;
 		long long cost;
 		//dp
-		//대각선 계산~
+		//diagonal calc~
 		for (int d = 2; d <= N; d++) {
 			for (int i = 0; i + d <= N; i++) {
-				//cost 계산
+				//cost calc
 				cost = 0;
 				for (int a = i; a <= i + d; a++) {
 					cost += page[a];
 				}
 
-				//dp min 계산
+				//dp min calc
 				min = 1099999999;
 				for (int k = i; k < i + d; k++) {
 					if (min > dp[i][k] + dp[k + 1][i + d] + cost)

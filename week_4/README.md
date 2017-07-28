@@ -60,7 +60,7 @@
 
  ## To Study
 
-- 성준영 : sqrt decomposition, 세그먼트 트리
+- 성준영 : sqrt decomposition, 세그먼트 트리, 위상정렬
 - 오영택 : fibonacci
 - 조주영 :
 - 강석윤 :

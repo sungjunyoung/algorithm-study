@@ -21,7 +21,7 @@
 
  ## Progress
 
- - 성준영 : ![](http://progressed.io/bar/12) 7576, 7569, 2178
+ - 성준영 : ![](http://progressed.io/bar/16) 7576, 7569, 2178, 2606
  - 오영택 : ![](http://progressed.io/bar/0)
  - 조주영 : ![](http://progressed.io/bar/0)
  - 강석윤 : ![](http://progressed.io/bar/0)

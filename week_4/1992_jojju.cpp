@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 #define MAX 64
 string string1[MAX + 1];

@@ -2,11 +2,9 @@
 
  ## Todo
 
- 단계별로 풀어보기 - [그래프 최단거리](https://www.acmicpc.net/step/26) - 5문제
-
- 단계별로 풀어보기 - [슬라이딩 윈도우](https://www.acmicpc.net/step/28) - 4문제
-
- 단계별로 풀어보기 - [그릳 알고리즘 풀어보기](https://www.acmicpc.net/step/33) - 5문제
+ - 단계별로 풀어보기 - [그래프 최단거리](https://www.acmicpc.net/step/26) - 5문제
+ - 단계별로 풀어보기 - [슬라이딩 윈도우](https://www.acmicpc.net/step/28) - 4문제
+ - 단계별로 풀어보기 - [그릳 알고리즘 풀어보기](https://www.acmicpc.net/step/33) - 5문제
 
  ## Tips
 

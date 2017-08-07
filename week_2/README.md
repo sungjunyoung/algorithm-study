@@ -2,9 +2,9 @@
 
  ## Todo
 
- 단계별로 풀어보기 - [1차원 배열 사용하기](https://www.acmicpc.net/step/6) - 5문제  
- 단계별로 풀어보기 - [규칙 찾기](https://www.acmicpc.net/step/8) - 9문제  
- 단계별로 풀어보기 - [정렬해보기](https://www.acmicpc.net/step/9) - 7문제  
+ - 단계별로 풀어보기 - [1차원 배열 사용하기](https://www.acmicpc.net/step/6) - 5문제
+ - 단계별로 풀어보기 - [규칙 찾기](https://www.acmicpc.net/step/8) - 9문제
+ - 단계별로 풀어보기 - [정렬해보기](https://www.acmicpc.net/step/9) - 7문제
 
  > 문자열 사용해보기는 너무 쉬운거같아서 뺏습니다.
 

@@ -2,9 +2,9 @@
 
  ## Todo
 
- 단계별로 풀어보기 - [그래프 (DFS, BFS)](https://www.acmicpc.net/step/24) - 9문제  
- 단계별로 풀어보기 - [시뮬레이션](https://www.acmicpc.net/step/19) - 10문제  
- 단계별로 풀어보기 - [스택 사용하기](https://www.acmicpc.net/step/11) - 4문제  
+ - 단계별로 풀어보기 - [그래프 (DFS, BFS)](https://www.acmicpc.net/step/24) - 9문제
+ - 단계별로 풀어보기 - [시뮬레이션](https://www.acmicpc.net/step/19) - 10문제
+ - 단계별로 풀어보기 - [스택 사용하기](https://www.acmicpc.net/step/11) - 4문제
 
  ## Tips
 

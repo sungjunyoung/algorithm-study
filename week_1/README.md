@@ -3,7 +3,7 @@
 
 ## Todo
 
-단계별로 풀어보기 - [함수 사용하기](https://www.acmicpc.net/step/5)
+- 단계별로 풀어보기 - [함수 사용하기](https://www.acmicpc.net/step/5)
 
 ## Tips
 

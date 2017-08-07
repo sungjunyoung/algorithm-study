@@ -2,9 +2,9 @@
 
  ## Todo
 
- 단계별로 풀어보기 - [분할 정복](https://www.acmicpc.net/step/20) - 12문제  
- 단계별로 풀어보기 - [트리 사용하기](https://www.acmicpc.net/step/23) - 7문제  
- 단계별로 풀어보기 - [위상정렬](https://www.acmicpc.net/step/25) - 4문제  
+ - 단계별로 풀어보기 - [분할 정복](https://www.acmicpc.net/step/20) - 12문제
+ - 단계별로 풀어보기 - [트리 사용하기](https://www.acmicpc.net/step/23) - 7문제
+ - 단계별로 풀어보기 - [위상정렬](https://www.acmicpc.net/step/25) - 4문제
 
  ## Tips
 

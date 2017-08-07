@@ -2,9 +2,9 @@
 
  ## Todo
 
- 단계별로 풀어보기 - [동적 계획법 기초](https://www.acmicpc.net/step/16) - 16문제  
- 단계별로 풀어보기 - [구현](https://www.acmicpc.net/step/17) - 5문제  
- 단계별로 풀어보기 - [브루트 포스](https://www.acmicpc.net/step/22) - 5문제  
+ - 단계별로 풀어보기 - [동적 계획법 기초](https://www.acmicpc.net/step/16) - 16문제
+ - 단계별로 풀어보기 - [구현](https://www.acmicpc.net/step/17) - 5문제
+ - 단계별로 풀어보기 - [브루트 포스](https://www.acmicpc.net/step/22) - 5문제
 
  ## Tips
 

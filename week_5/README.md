@@ -23,7 +23,7 @@
 
  - 성준영 : ![](http://progressed.io/bar/60) 7576, 7569, 2178, 2606, 2667, 10216, 1890, 1325, 10451, 2455, 1094, 1057, 1021, 1024, 10253
  - 오영택 : ![](http://progressed.io/bar/0)
- - 조주영 : ![](http://progressed.io/bar/0)
+ - 조주영 : ![](http://progressed.io/bar/0) 2606, 
  - 강석윤 : ![](http://progressed.io/bar/0)
  - 정소현 : ![](http://progressed.io/bar/0)
  - 김성주 : ![](http://progressed.io/bar/0)
